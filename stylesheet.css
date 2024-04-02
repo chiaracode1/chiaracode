@@ -1,0 +1,169 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #F4F4F4;
+}
+
+/* MENU */
+
+.navbar {
+    background-color: #333;
+    padding: 10px;
+}
+
+.menu-icon {
+    color: #F4F4F4;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.menu {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: none;
+    position: absolute;
+    top: 50px;
+    left: 0;
+    width: 100%;
+    background-color: transparent;
+}
+
+.menu li {
+    padding: 10px;
+    text-align: left;
+    margin-left: 50px;
+}
+
+.menu li a {
+    color: #252525;
+    text-decoration: none;
+    font-weight: 300;
+}
+
+.overlay {
+    display: none;
+    position: fixed;
+    top: 50px;
+    left: 0;
+    width: 100%;
+}
+
+.image {
+    position: absolute;
+    right:20px;
+    margin-bottom: 5em;
+}
+
+.image img {
+    display: block;
+    margin: 0 auto;
+    width: 16em;
+}
+
+/* BODY */
+
+section {
+    margin-top: 15em;
+    margin-bottom: 25em;
+}
+
+h1 {
+    padding: 50px;
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 30px;
+    font-family: "Dancing Script", cursive;
+    font-size: 4em;
+    color: #4d4d4d;
+}
+
+p {
+    padding: 0 180px;
+    font-size: 1.7em;
+    line-height: 1.5;
+    text-align: justify;
+    margin-top: 70px;
+}
+
+.img {
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 100px;
+}
+
+p#pr {
+    margin: auto;
+    margin-top: 30px;
+    padding: 0 180px;
+}
+
+a {
+    color:#ffffff;
+}
+
+a#gitst {
+    color:#333;
+}
+
+  .footer-banner {
+      background-color: #333;
+      color: white;
+      padding: 10px;
+      margin-top: -10em;
+      text-align: center;
+      position: fixed;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+  }
+
+
+/* SMARTPHONE */
+
+/* MEDIA QUERY PER SMARTPHONE */
+@media screen and (max-width: 768px) {
+    .menu {
+        display: block;
+        position: static;
+        width: auto;
+    }
+
+    .menu li {
+        margin-left: 0;
+    }
+
+    .menu li a {
+            color: #F4F4F4;
+    }
+
+    .menu-icon {
+        display: block;
+        text-align: left;
+    }
+
+    .navbar {
+        text-align: center;
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+
+    p {
+        padding: 0 20px;
+        font-size: 1.2em;
+    }
+
+    .image {
+        margin: 2em auto;
+    }
+
+    p#pr {
+        padding: 0 20px;
+    }
+
+    .footer-banner {
+        margin-top: 0;
+    }
+}
